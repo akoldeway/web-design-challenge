@@ -11,10 +11,17 @@
     background-color: rgb(62, 63, 58); 
 }
 
+.img-viz{
+    display:inline;
+}
+
 /* Here we define some styles that will ONLY be applied at screen sizes below 768 pixels */
 @media (max-width: 768px){
     .navbar{
         background-color:rgb(37, 75, 68);
     }
-      
+    
+    .img-viz{
+        display: block;
+    }
 } 

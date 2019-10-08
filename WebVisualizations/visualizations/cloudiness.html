@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latitude vs. Humidity</title>
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-G3Fme2BM4boCE9tHx9zHvcxaQoAkksPQa/8oyn1Dzqv7gdcXChereUsXGx6LtbqA" crossorigin="anonymous">
+
+     <!-- Site CSS -->
+     <link rel="stylesheet" type="text/css" href="../assets/site/site.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <!-- <span class="navbar-brand mb-0 h1">Lattitude</span> -->
+        <a class="navbar-brand" href="../index.html">
+            <img src="../assets/images/icon.png" width="30" height="30" alt="Latitude vs Logo" class="mr-2">Latitude vs.
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-1">
+                <li class="nav-item dropdown mr-3">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots<span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="temperature.html">Latitude vs. Temperature</a>
+                        <a class="dropdown-item active" href="cloudiness.html">Latitude vs. Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Latitude vs. Wind Speed</a>
+                        <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="../comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="../data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Body -->
+    <div class="container-fluid bg_vs_green text-light p-2">
+        <h1>Latitude vs. Cloudiness</h1>
+    </div>
+    <div class="container m-2">
+        <div class="row justify-content-md-center">
+            <div class="col">
+                <img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness Chart" width="500">
+            </div>
+            <div class="col mt-5">
+                <p>
+                    The <strong>Latitude vs. Cloudiness</strong> chart suggests there is no positive or negative
+                    correlation between cloud coverage and latitude. We do see that the northern hemisphere has a larger
+                    share of cities with 60% or greater cloude coverage, however this may be due to a larger sample size
+                    in that hemisphere.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visualization Links -->
+    <div class="container-fluid bg-primary text-center text-light p-1">
+        <h4>LatitudeVs. Analysis</h4>
+    </div>
+    <div class="container-fluid bg_vs_blue">
+        <div class="row">
+            <div class="col-sm-3 text-center p-3">
+                <h5>Latitude vs. Temperature</h5>
+                <a href="temperature.html">
+                    <img src="../assets/images/Fig1.png" class="img-thumbnail" alt="Latitude vs. Temperature Chart">
+                </a>
+            </div>
+            <div class="col-sm-3 text-center bg_vs_green p-3">
+                <h5 class="text-light">Latitude vs. Cloudiness</h5>
+                <a href="cloudiness.html">
+                    <img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness Chart" class="img-thumbnail">
+                </a>
+            </div>
+            <div class="col-sm-3 text-center p-3">
+                <h5>Latitude vs. Wind Speed</h5>
+                <a href="windspeed.html">
+                    <img src="../assets/images/Fig4.png" alt="Latitude vs. Wind Speed Chart" class="img-thumbnail">
+                </a>
+            </div>
+            <div class="col-sm-3 text-center  p-3">
+                <h5>Latitude vs. Humidity</h5>
+                <a href="humidity.html">
+                    <img src="../assets/images/Fig2.png" alt="Latitude vs. Humidity Chart" class="img-thumbnail">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

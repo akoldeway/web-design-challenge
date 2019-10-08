@@ -1,0 +1,20 @@
+.bg_vs_blue{
+    background-color: rgb(116, 182, 171);
+}
+
+.bg_vs_green{
+    background-color: rgb(113, 166, 109);
+}
+
+
+.navbar{
+    background-color: rgb(62, 63, 58); 
+}
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 768 pixels */
+@media (max-width: 768px){
+    .navbar{
+        background-color:rgb(37, 75, 68);
+    }
+      
+} 
